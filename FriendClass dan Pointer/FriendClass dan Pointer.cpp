@@ -13,17 +13,17 @@ void mahasiswa::showNim() { //implementasi method diluar class
 
 int main()
 {
-	mahasiswa mhs(1);	//object mhs
+	mahasiswa mhs{ 1 };	//object mhs
 	mhs.showNim();		//Member acces operator
 
 	mahasiswa ref = mhs; //pointer reference refMhs
 	ref.nim = 2;		// membuat acces operator
 	mhs.showNim();
 
-	mahasiswa* pMhs = mhs;	//pointer defrences pMhs
-	pMhs->Nim = 3;			//membuat acces operator
+	mahasiswa* pMhs = &mhs;	//pointer defrences pMhs
+	pMhs->nim = 3;			//membuat acces operator
 	pMhs->showNim();
-	system('pause');
+	system("pause");
 	return 0;
 
 }
