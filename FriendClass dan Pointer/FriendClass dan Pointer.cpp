@@ -6,3 +6,5 @@ public:
 	int nim;
 	void showNim(); //Deklarasi Method
 };
+
+
