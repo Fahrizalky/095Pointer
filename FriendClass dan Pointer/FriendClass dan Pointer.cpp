@@ -22,7 +22,12 @@ int main()
 	mhs.showNim();
 	mahasiswa* pMhs = &mhs;	//pointer deferences pMhs
 	pMhs->nim = 3;			//membuat acces operator
-	
+	pMhs->showNim();
+	system("pause");
+	return 0;
+
+}
+
 	
 
 
