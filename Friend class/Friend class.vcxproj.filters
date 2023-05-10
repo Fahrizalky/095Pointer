@@ -18,5 +18,11 @@
     <ClCompile Include="Friend class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FrendClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Freindclass2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
