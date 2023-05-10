@@ -20,7 +20,9 @@ int main()
 	ref.nim = 2;		// membuat acces operator
 	
 	mhs.showNim();
-	mahasiswa* pMhs = &mhs;	//pointer defrences pMhs
+	mahasiswa* pMhs = &mhs;	//pointer deferences pMhs
+	pMhs->nim = 3;			//membuat acces operator
+	
 	
 
 
