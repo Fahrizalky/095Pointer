@@ -19,5 +19,8 @@ int main()
 	mahasiswa ref = mhs; //pointer reference refMhs
 	ref.nim = 2;		// membuat acces operator
 	
+	mhs.showNim();
+	mahasiswa* pMhs = &mhs;	//pointer defrences pMhs
+	
 
 
